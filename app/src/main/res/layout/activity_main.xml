@@ -7,7 +7,36 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-   
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TEST"/>
+
+    <EditText
+        android:hint="Test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Switch
+        android:layout_width="90dp"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="0"
+        android:translationX="120dp" />
+
+    <ToggleButton
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:translationX="130dp"
+        android:translationY="150dp" />
 
 
 </LinearLayout>
